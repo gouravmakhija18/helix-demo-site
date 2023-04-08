@@ -15,6 +15,7 @@
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
   --background-color: #00ffff;
+  --background-color-blue: #0000ff;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --text-color: #ff00ff;
@@ -242,4 +243,8 @@ main .section {
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
+}
+
+main .section.blue {
+  background-color: var(--background-color-blue);
 }
