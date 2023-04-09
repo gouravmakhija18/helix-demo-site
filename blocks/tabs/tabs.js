@@ -2,7 +2,7 @@
  * tabs - consonant v5.1
  * https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role
  */
-import { createTag } from '../../scripts/scripts.js';
+import { createTag } from '../../scripts/lib-franklin.js';
 
 const isElementInContainerView = (targetEl) => {
   const rect = targetEl.getBoundingClientRect();
