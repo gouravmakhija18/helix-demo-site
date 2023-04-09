@@ -24,6 +24,10 @@
   margin-top: 0;
 }
 
+.cards .cards-card-link {
+  display: block !important;
+}
+
 .cards > ul > li img {
   width: 100%;
   aspect-ratio: 4 / 3;
