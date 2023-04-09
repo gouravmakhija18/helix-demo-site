@@ -23,6 +23,12 @@ export default async function decorate(block) {
     await loadBlocks(footer);
     decorateIcons(footer);
     block.append(footer);
+    footer.closest('footer').classList.add('appear');
+
+    // open all footer links in new windows
+    block.querySelectorAll('a').forEach((a) => {
+      a.target = '_blank';
+    });
   }
   return null;
 }
