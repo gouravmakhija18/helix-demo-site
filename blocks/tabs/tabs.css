@@ -127,8 +127,8 @@
     margin: 0 auto;
   }
   
-  .tabpanel .section{
-    padding:.5rem 0;
+  .tabpanel {
+    padding: .5rem;
   }
   
   .tabs div[role="tablist"] button {
