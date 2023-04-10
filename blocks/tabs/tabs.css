@@ -1,7 +1,7 @@
 :root {
     /* Tab Colors */
     --tabs-active-color: #1473e6;
-    --tabs-border-color: #d8d8d8;
+    --tabs-border-color: #ff8400;
     --tabs-border-hover-color: #acacac;
     --tabs-text-color: #7e7e7e;
     --tabs-active-text-color: #2C2C2C;
@@ -113,9 +113,7 @@
   
   .tabs .tabcontent {
     padding: 0 10px;
-    border-bottom: 1px solid var(--tabs-border-color);
-    border-right: 1px solid var(--tabs-border-color);
-    border-left: 1px solid var(--tabs-border-color);
+    border: 1px solid var(--tabs-border-color);
     background-color: var(--tabs-active-bg-color);
   }
   
@@ -142,6 +140,7 @@
     font-weight: 600;
     margin-left: -1px;
     margin-top: 0;
+    margin-bottom: 0;
     padding: 14px 16px 12px;
     text-decoration: none;
     transition: color 0.1s ease-in-out;
