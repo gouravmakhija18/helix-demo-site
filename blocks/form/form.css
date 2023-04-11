@@ -1,9 +1,3 @@
-main .form {
-    background-color: white;
-    padding: var(--spacing-m);
-    box-shadow: 0 1px 6px rgb(34 34 34 / 10%);
-}
-
 main .form h2 {
     padding: var(--spacing-m) 0;
     font-size: var(--type-heading-l-lh);
@@ -121,5 +115,5 @@ main .form .button {
 
 main .form .form-submit-wrapper {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
