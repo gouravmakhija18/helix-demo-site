@@ -2,6 +2,6 @@ version: 1
 
 sitemaps:
   allindex:
-    origin: https://www.adobe.com
+    origin: https://main--helix-demo-site--gouravmakhija18.hlx.page
     source: /query-index.json
     destination: /sitemap.xml
