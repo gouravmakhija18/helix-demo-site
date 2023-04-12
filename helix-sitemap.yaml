@@ -1,8 +1,8 @@
 version: 1
-
+auto-generated: true
 sitemaps:
-  example:
+  default:
     origin: https://blog.adobe.com
     source: /query-index.json
-    destination: /sitemap-en.xml
-    Lastmod: YYYY-MM-DD
+    destination: /sitemap.xml
+    lastmod: YYYY-MM-DD
