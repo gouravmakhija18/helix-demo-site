@@ -8,7 +8,7 @@ async function getImagesList(offset) {
   const totalCount = results.total;
   const data = results.data;
 
-  const currentPage = Math.ceil(offset / limit) + 1;
+  const currentPage = (offset !== 1) ? Math.ceil(offset / limit) + 1 : offset;
   const totalPages = Math.ceil(totalCount / limit);
 
   return {
